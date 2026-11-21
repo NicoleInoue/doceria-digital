@@ -1,0 +1,27 @@
+
+# Ambientes virtuais Python
+.venv/
+venv/
+backend/venv/
+
+# Arquivos temporários Python
+__pycache__/
+*.py[cod]
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Dependências e arquivos gerados do frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Backups do banco de dados
+backup/*.sql
+!backup/doceria_entrega.sql

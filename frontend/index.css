@@ -1,0 +1,31 @@
+
+/* Configurações gerais da aplicação */
+:root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #49352f;
+  background-color: #fffaf6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove as margens e espaçamentos padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configurações do corpo da página */
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Configuração do elemento principal do React */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
