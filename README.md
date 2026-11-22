@@ -248,8 +248,3 @@ http://localhost:5173
 - O banco de dados precisa ser restaurado antes da execução do sistema.
 - O primeiro administrador deve ser cadastrado após a configuração do banco e das variáveis de ambiente.
 - O arquivo `.env.example` é apenas um modelo. É necessário criar o arquivo `.env` no ambiente local.
-- O arquivo `.env` não deve ser incluído no compartilhamento do projeto.
-- Os ambientes virtuais, dependências instaladas e arquivos temporários não precisam ser incluídos na entrega.
-- O backup completo utilizado durante o desenvolvimento pode conter dados pessoais e informações administrativas. Não deve ser compartilhado publicamente.
-- O arquivo `backup/doceria_entrega.sql` deve ser incluído na entrega, pois é necessário para restaurar o banco de dados.
-- As imagens ilustrativas utilizadas no cardápio estão armazenadas localmente em `frontend/public/imagens/`.
